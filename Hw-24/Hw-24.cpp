@@ -68,18 +68,18 @@ int main() {
 
     //cout << S << endl;
 
-    //string S = "hello world. hello step. hello it.";
-    //string S1 = "hello";
-    //string S2 = "hi";
+    string S = "hello world. hello step. hello it.";
+    string S1 = "hello";
+    string S2 = "hi";
 
-    //size_t pos = 0;
+    size_t pos = 0;
 
-    //while ((pos = S.find(S1, pos)) != string::npos) {
-    //    S.replace(pos, S1.length(), S2);
-    //    pos += S2.length();
-    //}
+    while ((pos = S.find(S1, pos)) != string::npos) {
+        S.replace(pos, S1.length(), S2);
+        pos += S2.length();
+    }
 
-    //cout << S << endl;
+    cout << S << endl;
 
 
 
